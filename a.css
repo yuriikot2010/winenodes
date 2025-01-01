@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1d1d;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #2e2e2e;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tariff-blocks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+button {
+    background-color: #6b52ae;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8e67db;
+}
+
+.resizable-image {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+.benefit-block {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+.benefit-icon {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.stats-title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 44px;
+    color: #fff;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 44px;
+    color: #9D55C8;
+}
+
+.stat-title {
+    font-size: 24px;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #323131;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.buybutton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9D55C8;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.buybutton:hover {
+    background-color: #8A2BE2;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#pricing-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Changed from 100vh to auto to avoid height restriction */
+    margin-top: 50px; /* Add margin to create space between sections */
+}
+
+.togglebutton {
+    margin-bottom: 40px; /* Increase margin to create more space between the button and the section below */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.buybutton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden; /* Убираем горизонтальную прокрутку */
+}
+
+header {
+    width: 100%;
+    background-color: #222;
+    padding: 10px 0;
+    position: relative; /* Добавляем относительное позиционирование */
+    z-index: 1000; /* Устанавливаем высокий z-index, чтобы он был поверх другого контента */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar li {
+    margin: 0 15px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+.togglebutton {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.card-container {
+    box-sizing: border-box;
+    background-color: #222;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%; /* Автоматическая ширина */
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+
+.card h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+.card ul li {
+    margin: 5px 0;
+}
+
+.buybutton {
+    display: inline-block;
+    background-color: #ff4081;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.buybutton:hover {
+    background-color: #ff6081;
+}
+
+#main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.stats-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.stat {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 150px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.stat-value {
+    font-size: 24px;
+    margin: 0;
+}
+
+.stat-title {
+    margin: 0;
+    font-size: 16px;
+}
